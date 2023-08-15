@@ -17,8 +17,15 @@ const SEAT_STATUS = {
     LOCKED : "locked"
 }
 
+const BOOKING_STATUS = {
+    PENDING : "pending",
+    CONFIRMED : "confirmed",
+    CANCELLED : "cancelled"
+}
+
 module.exports = {
     SEAT_TYPE,
     SHOW_STATUS,
-    SEAT_STATUS
+    SEAT_STATUS,
+    BOOKING_STATUS
 }
